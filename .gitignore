@@ -1,0 +1,8 @@
+# Raw datasets (download separately, see README)
+*.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
