@@ -62,7 +62,7 @@ Daily **cumulative** counts in the Johns Hopkins University CSSE time-series for
 
 Each file has `Province/State`, `Country/Region`, `Lat` and `Long`, plus **one column per date** (wide format). The data has real-world problems to fix: blank provinces, missing coordinates, mixed date formats (`1/22/20` and `02-01-2020`), and countries split into provinces.
 
-> The CSVs are not included in this repository. The original data is published by [JHU CSSE](https://github.com/CSSEGISandData/COVID-19) (`csse_covid_19_data/csse_covid_19_time_series`). The notebook keeps all its outputs, so every result and chart is visible on GitHub without running it.
+> The three CSVs are included in this repository, so the notebook runs as-is. The original data is published by [JHU CSSE](https://github.com/CSSEGISandData/COVID-19) (`csse_covid_19_data/csse_covid_19_time_series`). The notebook also keeps all its outputs, so every result and chart is visible on GitHub without running it.
 
 ---
 
@@ -147,11 +147,11 @@ cd covid-19-data-analysis
 pip install -r requirements.txt
 ```
 
-Place `covid_19_confirmed.csv`, `covid_19_deaths.csv` and `covid_19_recovered.csv` in the repository folder, then run:
-
 ```bash
 jupyter notebook covid_19_case_study.ipynb
 ```
+
+The datasets are already in the repository folder. A full run takes under a minute and reproduces every output and chart.
 
 ---
 
