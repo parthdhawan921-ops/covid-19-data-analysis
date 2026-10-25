@@ -8,7 +8,9 @@
 
 An end-to-end exploratory analysis of the COVID-19 pandemic using **pandas, NumPy and Matplotlib**. Three messy, wide-format time series (confirmed cases, deaths, recoveries) for **276 regions over 494 days** are reshaped, cleaned, merged and analysed to answer 19 questions about how the virus spread, who recovered and where it was deadliest.
 
-**[📓 Open the notebook](covid_19_case_study.ipynb)**
+**Headline:** The US led with 33.25M cases, and France had Europe's biggest single-day surge (117,900). The highest death rates mostly reflect low testing, not a deadlier virus.
+
+**[📓 Open the notebook](covid_19_case_study.ipynb)** · **[Interactive case file](https://parthdhawan921-ops.github.io/Parth_Personal/#covid)**
 
 ![Total confirmed cases over time for the top 7 countries](images/01_top7_confirmed_cases.png)
 
